@@ -1,6 +1,8 @@
 # mimick-github-enterprise-auth
 模拟一下github enterprise的登录方式，没有什么其他用
 
+If you don't have an account but want to use copilot and override. This is the way to go.
+
 The only dependency is flask
 
 call `python main.py` to run. 
