@@ -12,7 +12,8 @@ It does not ask the user to register anything.
 Instead, it tells `copilot` the information of a mock user defined in the script. 
 It is designed to host locally on PC instead of providing authentication for multiple users.
 
-The only dependency is flask
+The only dependency is flask.
+For your reference, the code was made with `python==3.11.6` and `flask==3.0.3`
 
 call `python main.py` to run. 
 It listens to localhost:5201
