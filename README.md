@@ -18,7 +18,7 @@ For your reference, the code was made with `python==3.11.6` and `flask==3.0.3`
 call `python main.py` to run. 
 It listens to localhost:5201
 
-These two lines need to be appended to hosts
+These two lines need to be appended to hosts. This is becaues `copilot` believes api.<your_url> and copilot-telemetry-service.<your_url> are api endpoints, <prefix>.localhost is not available by default.
 
 `127.0.0.1 api.localhost`
 
