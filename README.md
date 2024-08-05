@@ -1,6 +1,6 @@
 # mimick-github-enterprise-auth
 This repo hosts a script to mock the authentication of `GH enterprise` for `copilot`.
-`override` is a software that acts as a custom backend for `copilot` plugin and allows to use any LLM with the `copilot` plugin. 
+[`override`](https://github.com/linux-do/override) is a software that acts as a custom backend for `copilot` plugin and allows to use any LLM with the `copilot` plugin. 
 However, it does not handle the authentication part of `copilot`.
 Instead, it requires the user to set `copilot` to `GH enterprise` authentication.
 A service providing `GH enterprise` like authentication is hosted by the author and it requires an account for a online discussion forum.
